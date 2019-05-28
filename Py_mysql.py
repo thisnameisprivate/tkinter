@@ -4,5 +4,6 @@ cur = connection.cursor()
 sql = "select * from alldiseases"
 cur.execute(sql)
 rows = cur.fetchall()
+#rows = cur.fetchall()
 for dr in rows:
     print(dr)
