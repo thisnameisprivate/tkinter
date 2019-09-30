@@ -7,3 +7,9 @@ rows = cur.fetchall()
 #rows = cur.fetchall()
 for dr in rows:
     print(dr)
+
+    
+    
+    
+    
+    
